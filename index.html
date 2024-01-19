@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PixelEase - AI Image Generator</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>PixelEase - AI Image Generator</h1>
+        <p>Unleash your creativity with PixelEase, where innovation meets simplicity. Our AI Image Generator empowers you to effortlessly craft stunning visuals with just a few clicks. Whether you're a seasoned designer or a novice enthusiast, PixelEase makes image generation a breeze.</p>
+        <form class="gen-form">
+            <input type="text" id="user-prompt" , placeholder="Type your prompt here..." autocomplete="off">
+            <button type="button" id="generate">Generate</button>
+        </form>
+
+        <div class="result">
+            <div id="loading">Generating...</div>
+            <div id="image-grid"></div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
